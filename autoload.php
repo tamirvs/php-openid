@@ -1,7 +1,5 @@
 <?php
-
-//$path = dirname(__FILE__).DIRECTORY_SEPARATOR.'src';
-//set_include_path(get_include_path() . PATH_SEPARATOR . $path);
+set_include_path(get_include_path() . PATH_SEPARATOR . dirname(__FILE__));
 
 require_once "Auth/OpenID/Consumer.php";
 require_once "Auth/OpenID/FileStore.php";
