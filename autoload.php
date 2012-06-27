@@ -8,4 +8,4 @@ require_once "Auth/OpenID/AX.php";
 //require_once "Auth/OpenID/PAPE.php";
 
 define('Auth_OpenID_VERIFY_HOST', true);
-define('Auth_OpenID_CAINFO', __DIR__.'/../../app/Resources/cacert.pem');
+define('Auth_OpenID_CAINFO', __DIR__.'/../../../app/Resources/cacert.pem');
